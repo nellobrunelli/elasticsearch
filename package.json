@@ -1,0 +1,25 @@
+{
+  "name": "elasticsearch",
+  "version": "1.0.0",
+  "description": "store data into elasticsearch ",
+  "main": "index.js",
+  "scripts": {
+    "start": "open http://localhost:4321 & httpster -p 4321"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nellobrunelli/elasticsearch.git"
+  },
+  "keywords": [
+    "elasticsearch"
+  ],
+  "author": "Nello Brunelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nellobrunelli/elasticsearch/issues"
+  },
+  "homepage": "https://github.com/nellobrunelli/elasticsearch#readme",
+  "dependencies": {
+    "httpster": "^1.0.1"
+  }
+}
